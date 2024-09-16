@@ -1,0 +1,251 @@
+/* start font family */
+
+
+
+/* end font family */
+
+
+
+/* start reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* end reset css */
+
+/* star variaveis */
+
+/* fim variaveis */
+
+/* inicio cascata */
+
+/* start cabecalho */
+
+.cabecalho {
+    background-color: rgb(255,92,0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 1% 0 0 0%;
+}
+
+.img__cabec__logo__letreiro {
+    width: 25%;
+}
+
+.img__cabec__frascos {
+    width: 25%;
+}
+
+.text__cabec {
+    color: #000000;
+    font-size: 1.8em;
+    font-weight: 500;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10%;
+}
+
+/* fim cabecalho */
+
+/* start man__ Chamada Desconto */
+
+.chamada__desconto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 1.88em;
+}
+
+.link__compra__chamada__desconto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFDC00;
+    border-radius: 2em;
+    width: 30%;
+    line-height: 2em;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    box-shadow: 1px 1px 1px #000000;
+    margin-bottom: 2%;
+}
+
+.img__logos__seguranca__chamada__desconto {
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.desconto__chamada {
+    background-color: #DFF0D8;
+    border-left: 2px solid #95cf7e;
+    width: 90%;
+    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-left: 1%;
+    margin-bottom: 6%;
+    border-radius: 1%;
+
+}
+
+/* End man__ Chamada Desconto */
+
+/*Start ultimas ofertas*/
+
+
+.ultimas__ofertas {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+    align-items: center;
+    padding: 1%;
+    background-color: #FF5C00;
+    border-radius: 2%;
+}
+
+.titulo__ultimas__ofertas {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 2%;
+    
+}
+
+.subtitulo__utlimas__ofertas {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 2%;
+}
+
+
+.img__frascos__ultimas__ofertas {
+    width: 20em;
+}
+
+.lista__ultimas__ofertas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-bottom: 1em;
+    list-style: none;
+}
+
+.texto_ultimas__ofertas {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 2%;
+}
+
+
+/*Fim ultimas ofertas*/ 
+
+/* start media */
+
+@media (max-width: 1024px) {
+    .chamada__desconto{
+        margin-top: 5%;
+    }
+
+    .link__compra__chamada__desconto {
+        width: 50%;
+    }
+}
+
+@media (max-width: 798px) {
+    .ultimas__ofertas {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+    }
+
+    .texto_ultimas__ofertas {
+        margin-top: 1em;
+        font-size: 2em;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .subtitulo__utlimas__ofertas {
+        margin-bottom: 1.5em;
+        margin-top: 1em;
+    }
+
+    .titulo__ultimas__ofertas {
+        text-align: center;
+    }
+ 
+}
+
+@media (max-width: 616px) {
+    .chamada__desconto{
+        text-align: center;
+    }
+
+    .link__compra__chamada__desconto {
+        width: 20em;
+    }
+    
+    .desconto__chamada {
+        font-size: 1.4em;
+    }
+
+}
+
+@media (max-width: 320px) {
+ 
+
+
+    .text__cabec {
+        font-size: 1.5em;
+    }
+
+    .chamada__desconto{
+        margin-top: 2.5em;
+    }
+
+
+    .link__compra__chamada__desconto {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .img__cabec__frascos {
+        width: 70%;
+    }
+
+}
+
+/* media para orientação em horizontal */
+
+@media (orientation: landscape) {
+
+    .chamada__desconto {
+        text-align: center;
+        margin-top: 3em;
+    }
+
+}
+
+/* fim da media para orientação em horizontal */
+
+/* fim media */
+
+
